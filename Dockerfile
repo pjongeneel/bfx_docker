@@ -1,5 +1,8 @@
 FROM biocontainers/biocontainers:latest
 
-RUN conda install bwa=0.7.15
+RUN conda install -y \
+    bwa=0.7.15 \
+    samtools=1.9
+    
 
 
