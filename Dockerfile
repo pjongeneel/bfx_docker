@@ -1,6 +1,6 @@
 FROM broadinstitute/picard:latest
 
-RUN apt=get upgrade -y && apt-get install -y bwa
+RUN apt-get update -y && apt-get install -y bwa
     
 
 
