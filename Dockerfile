@@ -1,8 +1,8 @@
-FROM biocontainers/biocontainers:latest
+FROM broadinstitute/picard:latest
 
-RUN conda install -y \
-    bwa=0.7.15 \
-    samtools=1.9
+#RUN conda install -y \
+#    bwa=0.7.15 \
+#    samtools=1.9
     
 
 
