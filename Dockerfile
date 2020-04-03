@@ -6,7 +6,7 @@ RUN apt-get update -y && \
     git \
     samtools
 
-ADD your_script.R /path/in/container/your_script.R
+#ADD your_script.R /path/in/container/your_script.R
 
 ENTRYPOINT [ "/bin/bash" ]
     
