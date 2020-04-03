@@ -8,7 +8,7 @@ RUN apt-get update -y && \
 
 #ADD your_script.R /path/in/container/your_script.R
 
-ENTRYPOINT [ "/bin/bash" ]
+#ENTRYPOINT [ "/bin/bash" ]
     
 
 
